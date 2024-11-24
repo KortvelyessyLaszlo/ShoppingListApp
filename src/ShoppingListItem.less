@@ -1,0 +1,66 @@
+.ShoppingListItem {
+    width: auto;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: background-color 0.3s;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #e9e9e9;
+    }
+
+    .Name {
+        text-align: left;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .Quantity,
+    .Price {
+        font-size: 16px;
+        color: #555;
+        text-align: left;
+    }
+
+    .Description {
+        font-size: 14px;
+        color: #555;
+        text-align: left;
+    }
+
+    .Purchased,
+    .NotPurchased {
+        text-align: right;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 3px;
+    }
+
+    .Purchased {
+        color: #4caf50;
+    }
+
+    .NotPurchased {
+        color: #f44336;
+    }
+
+
+    .DeleteButton {
+        position: relative;
+        top: -10px;
+        float: right;
+        cursor: pointer;
+        padding: 5px;
+        background-color: #333;
+        color: white;
+        border-radius: 20%;
+
+        &:hover {
+            background-color: #333;
+        }
+    }
+}
